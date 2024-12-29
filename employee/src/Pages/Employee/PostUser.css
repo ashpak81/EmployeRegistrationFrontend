@@ -1,0 +1,55 @@
+.center-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* Changed to pure white for better contrast */
+    border: 2px solid #007bff; /* Added a border color to match theme */
+    border-radius: 12px; /* Increased border radius for a softer look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+}
+
+.center-form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #007bff; /* Consistent with theme color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.center-form .form-group {
+    margin-bottom: 20px; /* Increased spacing between fields */
+}
+
+.center-form .form-control {
+    padding: 12px; /* Increased padding for input fields */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Rounded corners for input fields */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.center-form .form-control:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add glow on focus */
+    outline: none;
+}
+
+.center-form .btn {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.center-form .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.center-form .btn:active {
+    background-color: #004085; /* Even darker blue when pressed */
+    transform: scale(1); /* Reset scaling */
+}
